@@ -1,0 +1,25 @@
+raw_samples:
+    raw_sample1:
+        - "data_reads/raw_sample1_R1.fastq.gz"
+        - "data_reads/raw_sample1_R2.fastq.gz"
+    raw_sample2:
+        - "data_reads/raw_sample2_R1.fastq.gz"
+        - "data_reads/raw_sample2_R2.fastq.gz"
+
+mags:
+    mags_sample1:
+        - "data_mags/mags_sample1_R1.fna.gz"
+        - "data_mags/mags_sample1_R2.fna.gz"
+    mags_sample2:
+        - "data_mags/mags_sample2_R1.fna.gz"
+        - "data_mags/mags_sample2_R2.fna.gz"
+
+contigs:
+    contigs_sample1:
+        - "data_contigs/contigs_sample1_R1.fasta.gz"
+        - "data_contigs/contigs_sample1_R2.fasta.gz"
+    contigs_sample2:
+        - "data_contigs/contigs_sample2_R1.fasta.gz"
+        - "data_contigs/contigs_sample2_R2.fasta.gz"
+
+tmpdir: "mmseqs_results/tmp"
