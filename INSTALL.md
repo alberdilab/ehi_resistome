@@ -65,6 +65,7 @@ Move the Snakefile.smk and the script_config.yaml to a directory named "my_proye
 Save the file config.yaml in a directory named profiles relative to your workflow directory
 Create the following directories
 
+```bash
 /my_proyect/
 │── data/
 │   │── sample1_R1.fastq.gz
@@ -78,7 +79,7 @@ Create the following directories
 │── logs/
 │   │── rgi/
 │── others_files...
-
+```
 
 ## Step 7: Run the workflow
 Run the workflow with snakemake and slurm
